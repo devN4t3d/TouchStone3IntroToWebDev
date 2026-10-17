@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #fff8ed;
+    color: #3d2b23;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+.site-header, .site-footer {
+    background-color: #5b382a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.brand-logo {
+    width: 65px;
+    height: auto;
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.site-nav a:hover, .site-nav a[aria-current="page"] {
+    background-color: #a75338;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.content-card {
+    background-color: white;
+    border: 1px solid #e3d3c4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-card img, video, audio {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.team-member {
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: 1px solid #bca99b;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input:not([type="checkbox"]), select, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #a75338;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b382a;
+}
+
+/* Larger screens: place header items and team members side by side */
+@media (min-width: 700px) {
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .team-grid {
+        display: flex;
+        gap: 20px;
+    }
+
+    .team-member {
+        flex: 1;
+    }
+}

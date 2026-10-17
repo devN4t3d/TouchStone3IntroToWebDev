@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   North Star Bakery | Contact and Pre-Orders
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+  <meta content="North Star Bakery: handmade breads, pastries, cakes, and friendly neighborhood service." name="description"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="brand">
+    <img alt="North Star Bakery logo" class="brand-logo" loading="lazy" src="bakery-logo.png"/>
+    <h1>
+     North Star Bakery
+    </h1>
+   </div>
+   <nav aria-label="Main navigation" class="site-nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="products.html">
+     Products
+    </a>
+    <a href="about.html">
+     About Us
+    </a>
+    <a aria-current="page" href="contact.html">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="page-container">
+   <section class="content-card intro-card">
+    <h2>
+     Contact North Star Bakery
+    </h2>
+    <p>
+     Have a question or want to request a pre-order? Complete the
+                form below and our bakery team will review your request.
+    </p>
+   </section>
+   <section class="content-card form-card">
+    <h2>
+     Inquiry and Pre-Order Request
+    </h2>
+    <p class="form-note">
+     Note: This demonstration form requires a server-side handler before requests can be delivered to the bakery.
+    </p>
+    <form action="#" aria-label="Bakery inquiry and pre-order form" method="post">
+     <fieldset class="form-group">
+      <legend>
+       Your Contact Information
+      </legend>
+      <p class="form-field">
+       <label for="name">
+        Name:
+       </label>
+       <br/>
+       <input id="name" minlength="2" name="name" pattern="[A-Za-zÀ-ÿ' -]+" required="" type="text"/>
+      </p>
+      <p class="form-field">
+       <label for="email">
+        Email:
+       </label>
+       <br/>
+       <input id="email" name="email" required="" type="email"/>
+      </p>
+     </fieldset>
+     <fieldset class="form-group">
+      <legend>
+       Request Information
+      </legend>
+      <p class="form-field">
+       <label for="pickup-date">
+        Pickup Date:
+       </label>
+       <br/>
+       <input id="pickup-date" name="pickup-date" required="" type="date"/>
+      </p>
+      <p class="form-field">
+       <label for="request-type">
+        Request Type:
+       </label>
+       <br/>
+       <select id="request-type" name="request-type" required="">
+        <option value="">
+         Please select one
+        </option>
+        <option value="pre-order">
+         Pre-Order
+        </option>
+        <option value="general-question">
+         General Question
+        </option>
+        <option value="event-inquiry">
+         Event Inquiry
+        </option>
+       </select>
+      </p>
+      <p class="form-field">
+       <label for="item-details">
+        Item Details:
+       </label>
+       <br/>
+       <textarea cols="40" id="item-details" maxlength="500" minlength="5" name="item-details" placeholder="Tell us what you would like to request." required="" rows="5"></textarea>
+      </p>
+      <p class="form-field">
+       <label for="allergy-notes">
+        Allergy Notes, If Applicable:
+       </label>
+       <br/>
+       <textarea cols="40" id="allergy-notes" maxlength="500" name="allergy-notes" placeholder="Please list any allergy information we should know about." rows="4"></textarea>
+      </p>
+     </fieldset>
+     <fieldset class="form-group">
+      <legend>
+       Submit Your Request
+      </legend>
+      <p class="checkbox-field">
+       <input id="contact-agreement" name="contact-agreement" required="" type="checkbox"/>
+       <label for="contact-agreement">
+        I understand that this form is a request and that
+                            the bakery will confirm availability and details.
+       </label>
+      </p>
+      <p class="form-actions">
+       <button type="submit">
+        Submit Request
+       </button>
+       <button type="reset">
+        Clear Form
+       </button>
+      </p>
+     </fieldset>
+    </form>
+   </section>
+   <section class="content-card">
+    <h2>
+     Location
+    </h2>
+    <address>
+     North Star Bakery
+     <br/>
+     123 Main Street
+     <br/>
+     Your Town, ST 12345
+    </address>
+   </section>
+   <section class="content-card">
+    <h2>
+     Hours of Operation
+    </h2>
+    <p>
+     Monday-Friday: 6:00 a.m.-6:00 p.m.
+     <br/>
+     Saturday: 7:00 a.m.-4:00 p.m.
+     <br/>
+     Sunday: Closed
+    </p>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <p>
+    © 2026 North Star Bakery. All rights reserved.
+   </p>
+   <p>
+    Fresh baking. Friendly service. Community connection.
+   </p>
+  </footer>
+ </body>
+</html>
