@@ -96,7 +96,6 @@ button:hover {
     background-color: #5b382a;
 }
 
-/* Larger screens: place header items and team members side by side */
 @media (min-width: 700px) {
     .site-header {
         display: flex;
@@ -120,3 +119,9 @@ button:hover {
         flex: 1;
     }
 }
+
+.favorite-button { margin-top: 10px; }
+#favorites-list { padding-left: 25px; }
+.field-error { display: block; color: #a52a2a; font-size: 0.9em; margin-top: 4px; }
+#form-status { font-weight: bold; }
+input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"] { border: 2px solid #a52a2a; }
