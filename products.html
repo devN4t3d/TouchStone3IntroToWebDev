@@ -1,135 +1,136 @@
 <!DOCTYPE html>
+
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
    North Star Bakery | Products
   </title>
-  <link href="styles.css" rel="stylesheet"/>
-  <meta content="North Star Bakery: handmade breads, pastries, cakes, and friendly neighborhood service." name="description"/>
- </head>
- <body>
-  <header class="site-header">
-   <div class="brand">
-    <img alt="North Star Bakery logo" class="brand-logo" loading="lazy" src="bakery-logo.png"/>
-    <h1>
+<link href="styles.css" rel="stylesheet"/>
+<meta content="North Star Bakery: handmade breads, pastries, cakes, and friendly neighborhood service." name="description"/>
+<script defer="True" src="script.js"></script></head>
+<body>
+<header class="site-header">
+<div class="brand">
+<img alt="North Star Bakery logo" class="brand-logo" loading="lazy" src="bakery-logo.png"/>
+<h1>
      North Star Bakery
     </h1>
-   </div>
-   <nav aria-label="Main navigation" class="site-nav">
-    <a href="index.html">
+</div>
+<nav aria-label="Main navigation" class="site-nav">
+<a href="index.html">
      Home
     </a>
-    <a aria-current="page" href="products.html">
+<a aria-current="page" href="products.html">
      Products
     </a>
-    <a href="about.html">
+<a href="about.html">
      About Us
     </a>
-    <a href="contact.html">
+<a href="contact.html">
      Contact
     </a>
-   </nav>
-  </header>
-  <main class="page-container">
-   <section class="content-card intro-card">
-    <h2>
+</nav>
+</header>
+<main class="page-container">
+<section class="content-card intro-card">
+<h2>
      Our Products
     </h2>
-    <p>
+<p>
      Our bakery menu features handmade breads, pastries, and cakes.
                 Prices vary depending on size, flavor, and customization.
                 Contact us for current availability and pre-order information.
     </p>
-   </section>
-   <section class="content-card product-card">
-    <h2>
+</section><section aria-live="polite" class="content-card"><h2>My Favorite Bakery Products</h2><p>Select products you like below. Your choices will be saved on this browser.</p><p id="favorites-summary">No favorites selected yet.</p><ul id="favorites-list"></ul></section>
+<section class="content-card product-card">
+<h2>
      Breads
     </h2>
-    <img alt="Assortment of freshly baked breads" loading="lazy" src="bakery-bread.png"/>
-    <p>
+<img alt="Assortment of freshly baked breads" loading="lazy" src="bakery-bread.png"/>
+<p>
      Our breads are baked fresh and are ideal for breakfast,
                 sandwiches, family meals, or sharing with neighbors.
     </p>
-    <p>
-     <strong>
+<p>
+<strong>
       Typical price range:
      </strong>
      $5-$10 per loaf.
     </p>
-   </section>
-   <section class="content-card product-card">
-    <h2>
+<button class="favorite-button" data-product="breads" type="button">Add to Favorites</button></section>
+<section class="content-card product-card">
+<h2>
      Signature Loaf
     </h2>
-    <figure>
-     <img alt="North Star Bakery signature artisan loaf" loading="lazy" src="bakery-signature-loaf.png"/>
-     <figcaption>
+<figure>
+<img alt="North Star Bakery signature artisan loaf" loading="lazy" src="bakery-signature-loaf.png"/>
+<figcaption>
       Our Signature Loaf is a handcrafted favorite with a
                     golden crust and hearty texture.
      </figcaption>
-    </figure>
-    <p>
+</figure>
+<p>
      The Signature Loaf is a popular choice for customers looking
                 for a classic handmade bread to enjoy at home or share with
                 friends and family.
     </p>
-    <p>
-     <strong>
+<p>
+<strong>
       Typical price range:
      </strong>
      $7-$12 per loaf.
     </p>
-   </section>
-   <section class="content-card product-card">
-    <h2>
+<button class="favorite-button" data-product="signature-loaf" type="button">Add to Favorites</button></section>
+<section class="content-card product-card">
+<h2>
      Pastries
     </h2>
-    <p>
+<p>
      Choose from a rotating selection of sweet and savory pastries,
                 prepared fresh for the neighborhood.
     </p>
-    <p>
-     <strong>
+<p>
+<strong>
       Typical price range:
      </strong>
      $3-$7 per pastry.
     </p>
-   </section>
-   <section class="content-card product-card">
-    <h2>
+<button class="favorite-button" data-product="pastries" type="button">Add to Favorites</button></section>
+<section class="content-card product-card">
+<h2>
      Cakes
     </h2>
-    <p>
+<p>
      Our cakes are available for birthdays, family gatherings,
                 workplace celebrations, and other special occasions.
                 Custom requests can be discussed when you contact the bakery.
     </p>
-    <p>
-     <strong>
+<p>
+<strong>
       Typical price range:
      </strong>
      $30-$75 depending on size and design.
     </p>
-   </section>
-   <section class="content-card">
-    <h2>
+<button class="favorite-button" data-product="cakes" type="button">Add to Favorites</button></section>
+<section class="content-card">
+<h2>
      Pre-Order Information
     </h2>
-    <p>
+<p>
      We do not offer online checkout through this website. To
                 request a product for pickup, please use our contact form.
     </p>
-   </section>
-  </main>
-  <footer class="site-footer">
-   <p>
+</section>
+</main>
+<footer class="site-footer">
+<p>
     © 2026 North Star Bakery. All rights reserved.
    </p>
-   <p>
+<p>
     Fresh baking. Friendly service. Community connection.
    </p>
-  </footer>
- </body>
+</footer>
+</body>
 </html>
